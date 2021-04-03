@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<!--? Metaetiquetas -->
+		<!--* Metaetiquetas -->
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="author" content="Arturo Morales" />
 
-		<!--? Titulo del sitio -->
+		<!--* Titulo del sitio -->
 		<title>GitHub Page</title>
 
 		<!--?----------------------->
@@ -17,12 +17,72 @@
 	</head>
 
 	<body>
-		<!--? Lang bubble -->
+		<!--?----------------------->
+		<!--?---- PAGE LOADER ------>
+		<!--?----------------------->
+		<section id="pageLoader">
+			<img src="img/AM_logo.png" alt="AM_logo" />
+
+			<div class="barContainer">
+				<div class="bar"></div>
+			</div>
+		</section>
+
+		<!--?--------------------------->
+		<!--?---- NAVBAR Y HEADER ------>
+		<!--?--------------------------->
+		<!--* IMAGEN -->
+		<header>
+			<div id="particles-js"></div>
+			<img src="/img/AM_logo.png" alt="AM_logo" />
+			<h2 class="title">Diseño y Desarrollo WEB</h2>
+
+			<a href="#nav" class="goDown">
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+					<path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" />
+				</svg>
+			</a>
+		</header>
+		<!--* NAVBAR  -->
+		<nav id="nav">
+			<a href="">Home</a>
+			<a href="">Proyectos</a>
+			<a href="">Clientes</a>
+		</nav>
+
+		<!--?------------------------------->
+		<!--?---- CONTENIDO DEL SITIO ------>
+		<!--?------------------------------->
+		<main>
+			<div class="container">
+				<h1>Header H1</h1>
+				<h2>Header H2</h2>
+				<h3>Header H3</h3>
+				<h4>Header H4</h4>
+				<h5>Header H5</h5>
+				<h6>Header H6</h6>
+				<br />
+
+				<p>Párrafo</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis enim explicabo doloremque quidem
+					distinctio ex ratione, veritatis voluptatibus eius accusamus nobis sit reprehenderit! Dolorem itaque maiores
+					reiciendis ipsum minima est?
+				</p>
+			</div>
+		</main>
+
+		<!--* Lang bubble -->
 		<section id="userLang"></section>
 
 		<!--?------------------->
 		<!--?---- SCRIPTS ------>
 		<!--?------------------->
+		<!--* jQuery -->
+		<script src="/js/jquery.min.js"></script>
+		<!--* Particles JS -->
+		<script src="/js/particles.min.js"></script>
+		<script src="/js/app.js"></script>
 		<!--* Custom Scripts -->
 		<script src="js/my_scripts.js"></script>
 	</body>
