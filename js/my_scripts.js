@@ -27,11 +27,11 @@ const progressBar = document.querySelector(".bar");
 document.ready = () => {
 	setTimeout(() => {
 		progressBar.classList.add("active");
-	}, 000); //!-->> ARREGLAR 1000
+	}, 1000);
 };
 window.onload = () => {
 	progressBar.style.width = "100%";
 	setTimeout(() => {
 		document.getElementById("pageLoader").classList.add("hidde");
-	}, 00); //!-->> ARREGLAR 1500
+	}, 1500);
 };
